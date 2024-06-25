@@ -5338,6 +5338,7 @@
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="Icon" Value="../Images/dnSpy.ico"/>
         <Setter Property="IsDebugging" Value="{DynamicResource IsDebuggingKey}" />
+        <Setter Property="ctrls2:Windows11RoundedCorners.Type" Value="Regular" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ctrls2:MetroWindow}">
